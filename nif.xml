@@ -6619,7 +6619,7 @@
         <field name="Grayscale to Palette Scale" type="float" default="1.0" range="#F0_1#" vercond="#BS_GTE_130#" />
         <field name="Fresnel Power" type="float" default="5.0" range="#F_PNZ#" vercond="#BS_GTE_130#" />
         <field name="Wetness" type="BSSPWetnessParams" vercond="#BS_GTE_130#" />
-        <field name="Luminance" type="BSSPLuminanceParams" vercond="#BS_GTE_STF#" />
+        <field name="Luminance" type="BSSPLuminanceParams" vercond="#BS_GTE_F76#" />
         <field name="Do Translucency" type="bool" vercond="#BS_F76#" />
         <field name="Translucency" type="BSSPTranslucencyParams" vercond="#BS_F76#" cond="Do Translucency" />
         <field name="Has Texture Arrays" type="bool" vercond="#BS_F76#" />
